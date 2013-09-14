@@ -1,0 +1,43 @@
+<center>
+<h2>Welcome to Calc DB. Select a search criterion.</h2>
+
+<p><font size=+1 color=red>Warning:</font> This site is edited live on the server. Anything may explode at any time.
+
+<p><font size=+1 color=red>Firefox:</font> Some versions of Firefox seem to render math extremely slowly. Try using <a href="http://www.google.com/chrome">Google Chrome</a> instead.
+
+
+<?
+if(!function_exists(tag_list)) {
+	include("connect.php");
+	include("functions.php");
+}
+if($_COOKIE['username']=="tre8a" || $_COOKIE['username']=="svd5d") $experimental=true;
+if(!$experimental) $a_types = type_list();
+$a_tags = fast_tags();
+?>
+
+<p>&nbsp;
+</center>
+
+<table width=100% cellpadding="20px">
+	<tr>
+<? if($experimental): ?>
+	<td width="60%" valign="top" bgcolor="gray">
+		<center><h3>Screencast to go here</h3></center>
+	</td>
+<? endif; ?>
+	<td valign="top">
+<center>
+<h3>Tags</h3>
+<? print_tag_cloud($a_tags,"tags"); ?></center>
+</td>
+<? if(!$experimental): ?>
+<td valign="top">
+<center>
+<h3>Types</h3>
+<? \\ print_tag_cloud($a_types,"type"); ?></center>
+</td>
+<? endif; ?>
+</tr>
+</table>
+

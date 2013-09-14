@@ -1,0 +1,120 @@
+a.xbutton:link {text-decoration: none; color:gray;}
+a.xbutton:visited {text-decoration: none; color:gray;}
+a.xbutton:hover {text-decoration: underline; color:black;}
+a.xbutton:active {text-decoration: none; color:gray;}
+
+a.tag:link {text-decoration: none; color: black;}
+a.tag:visited {text-decoration: none; color: black;}
+a.tag:hover {text-decoration: underline; color: black;}
+a.tag:active {text-decoration: none; color: black;}
+
+p.tagbox {border:solid lightgray 1pt; padding:5px; }
+
+html, body {
+	margin: 0px;
+	font-family: serif;
+}
+
+div.topbar {
+	background:#eafffb;
+	height:30px;
+	margin:0px;
+	border-bottom:1px solid #C3D1EC;
+	width:100%;
+}
+
+span.topbar_box {
+	display: block;
+	padding: 0 5px;
+}
+
+div.right {
+	right:0;
+	padding-right:5px;
+	float:right;
+}
+
+div.left {
+	left:0;
+	padding-left:5px;
+	float:left;
+}
+
+div.courses_pop_down {
+	top:31px;
+	left:207px;
+	background:white;
+	border:1px solid #C3D1EC;
+	position:absolute;
+}
+
+div.cart_pop_down {
+	top:31px;
+	right:50px;
+	background:white;
+	border:1px solid #C3D1EC;
+	position:absolute;
+}
+
+div.login_pop_down {
+	top:31px;
+	right:0px;
+	background:white;
+	border:1px solid #C3D1EC;
+	position:absolute;
+}
+
+ul {
+	list-style-type: none;
+	margin:0px;
+	margin-left:0px;
+	padding-left:0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-padding-start: 0px;
+}
+
+li.block {
+	display:block;
+	margin:0;
+}
+
+li.block_float {
+	display:-moz-inline-box;
+	display:inline-block;
+	margin:0 5px;
+	padding:0;
+	vertical-align:top;
+	line-height:30px;
+}
+
+a.boxed_link:link {text-decoration: none; color: black; display: block; padding:0 5px;}
+a.boxed_link:hover {text-decoration: none; background-color: #7baffc; color: black; display: block; padding:0 5px;}
+a.boxed_link:visited {text-decoration: none; color: black; display: block; padding:0 5px;}
+a.boxed_link:active {text-decoration: none; background-color: white; color: black; display: block; padding:0 5px;}
+
+input#tags.search_box {
+	background: white url(../img/search_small.png) no-repeat right;
+	height:30px;
+	font-size:15px;
+}
+
+#current-user
+{
+	background-color:#6495ed;
+}
+
+#new-user
+{
+	background-color:#e0ffff;
+}
+
+#new-user-text
+{
+	color:#005CE7;
+}
+
+#current-user-text
+{
+	color:#005CE7;
+}

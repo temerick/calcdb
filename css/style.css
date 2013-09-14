@@ -1,0 +1,197 @@
+a.xbutton:link {text-decoration: none; color:gray;}
+a.xbutton:visited {text-decoration: none; color:gray;}
+a.xbutton:hover {text-decoration: underline; color:black;}
+a.xbutton:active {text-decoration: none; color:gray;}
+
+a.tag:link {text-decoration: none; color: black;}
+a.tag:visited {text-decoration: none; color: black;}
+a.tag:hover {text-decoration: underline; color: black;}
+a.tag:active {text-decoration: none; color: black;}
+
+p.tagbox {border:solid lightgray 1pt; padding:5px; }
+
+html, body {
+	margin: 0px;
+	font-family: serif;
+}
+
+html.main {
+	min-width: 900px;
+}
+
+body.main {
+	min-width: 900px;
+}
+
+div.topbar {
+	background:#eafffb;
+	height:30px;
+	margin:0px;
+	width:100%;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	color: #666;
+	border-bottom: 1px solid gainsboro;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: whiteSmoke;
+	background-image: -webkit-linear-gradient(top,whiteSmoke,#F1F1F1);
+	background-image: -moz-linear-gradient(top,whiteSmoke,#F1F1F1);
+	background-image: -ms-linear-gradient(top,whiteSmoke,#F1F1F1);
+	background-image: -o-linear-gradient(top,whiteSmoke,#F1F1F1);
+	background-image: linear-gradient(top,whiteSmoke,#F1F1F1);
+	box-shadow: 0 0 6px gray;
+	-webkit-box-shadow: 0 0 6px gray;
+	-moz-box-shadow: 0 0 6px gray;
+}
+
+span.topbar_box {
+	display: block;
+	padding: 0 5px;
+}
+
+div.right {
+	right:0;
+	padding-right:5px;
+	float:right;
+}
+
+div.left {
+	left:0;
+	padding-left:5px;
+	float:left;
+}
+
+div.courses_pop_down {
+	top:31px;
+	left:160px;
+	background:white;
+	border:1px solid #C3D1EC;
+	position:absolute;
+}
+
+div.cart_pop_down {
+	top:31px;
+	right:50px;
+	background:white;
+	border:1px solid #C3D1EC;
+	position:absolute;
+}
+
+div.login_pop_down {
+	top:31px;
+	right:0px;
+	background:white;
+	border:1px solid #C3D1EC;
+	position:absolute;
+}
+
+div.multicol {
+	-moz-column-width:300px;
+	-moz-column-gap:30px;
+	-webkit-column-width:300px;
+	-webkit-column-gap:30px;
+}
+
+ul {
+	list-style-type: none;
+	margin:0px;
+	margin-left:0px;
+	padding-left:0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-padding-start: 0px;
+}
+
+ul.web_preview {
+	list-style-type: disc;
+	padding-left: 20px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-padding-start: 20px;
+}
+
+li.block {
+	display:block;
+	margin:0;
+}
+
+li.block_float {
+	display:-moz-inline-box;
+	display:inline-block;
+	margin:0 5px;
+	padding:0;
+	vertical-align:top;
+	line-height:30px;
+	
+	zoom:1; 
+	*display: inline; 
+	_height: 30px;
+}
+
+a.boxed_link:link {text-decoration: none; color: black; display: block; padding:0 5px;}
+a.boxed_link:hover {text-decoration: none; background-color: #7baffc; color: black; display: block; padding:0 5px;}
+a.boxed_link:visited {text-decoration: none; color: black; display: block; padding:0 5px;}
+a.boxed_link:active {text-decoration: none; background-color: white; color: black; display: block; padding:0 5px;}
+
+input#tags.search_box {
+	background: white url(../img/search_small.png) no-repeat right;
+	height:30px;
+	font-size:15px;
+}
+
+a.help_out {
+	display:block;
+	box-shadow: 0 0 6px gray;
+	-webkit-box-shadow: 0 0 6px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	bottom: -1px;
+	position: fixed;
+	right: -1px;
+	text-decoration:none;
+}
+
+div.help_out {
+	margin-right: 0px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	height: 27px;
+	line-height: 27px;
+	min-width: 54px;
+	outline: 0;
+	padding: 0 8px;
+	text-decoration: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	color: #666;
+	border: 1px solid gainsboro;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: whiteSmoke;
+	background-image: -webkit-linear-gradient(top,whiteSmoke,#F1F1F1);
+	background-image: -moz-linear-gradient(top,whiteSmoke,#F1F1F1);
+	background-image: -ms-linear-gradient(top,whiteSmoke,#F1F1F1);
+	background-image: -o-linear-gradient(top,whiteSmoke,#F1F1F1);
+	background-image: linear-gradient(top,whiteSmoke,#F1F1F1);
+}	
+
+#current-user
+{
+	background-color:#6495ed;
+}
+
+#new-user
+{
+	background-color:#e0ffff;
+}
+
+#new-user-text
+{
+	color:#005CE7;
+}
+
+#current-user-text
+{
+	color:#005CE7;
+}
